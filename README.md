@@ -21,14 +21,14 @@ $downloadPath = "D:\items"
 
 ---
 
-## ⚙️ Permissions (Delegated and Application)
+**## 🔐 Permissions**
 
-Microsoft Graph → Application Permissions
+Microsoft Graph → **Application Permissions**
 
-Sites.Read.All
-Files.Read.All
+    Sites.Read.All
+    Files.Read.All
 
-👉 Grant Admin Consent
+👉 Grant **Admin Consent**
 
 ---
 
@@ -36,11 +36,14 @@ Files.Read.All
 
 No external dependencies required.
 
-Uses built-in PowerShell commands:
-- Invoke-RestMethod
-- Invoke-WebRequest
+Built-in PowerShell commands used:
 
-### Requirements:
-- PowerShell 5.1+
-- Internet access to Microsoft Graph & SharePoint
+    Invoke-RestMethod
+    Invoke-WebRequest
 
+### Requirements
+
+    PowerShell 5.1+
+    Internet access to Microsoft Graph & SharePoint
+
+---
