@@ -18,3 +18,25 @@ $siteUrl    = "https://yourtenant.sharepoint.com/sites/sample"
 $folderPath = "/directory"
 
 $downloadPath = "D:\items"
+
+## ⚙️ Permissions (Delegated and Application)
+
+Microsoft Graph → Application Permissions
+
+Sites.Read.All
+Files.Read.All
+
+👉 Grant Admin Consent
+
+## 🧰 Dependencies
+
+No external dependencies required.
+
+Uses built-in PowerShell commands:
+- Invoke-RestMethod
+- Invoke-WebRequest
+
+### Requirements:
+- PowerShell 5.1+
+- Internet access to Microsoft Graph & SharePoint
+
