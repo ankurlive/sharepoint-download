@@ -19,6 +19,8 @@ $folderPath = "/directory"
 
 $downloadPath = "D:\items"
 
+---
+
 ## ⚙️ Permissions (Delegated and Application)
 
 Microsoft Graph → Application Permissions
@@ -27,6 +29,8 @@ Sites.Read.All
 Files.Read.All
 
 👉 Grant Admin Consent
+
+---
 
 ## 🧰 Dependencies
 
